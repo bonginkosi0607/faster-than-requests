@@ -35,4 +35,4 @@ requests.set_headers([("key", "value")])                    # Set HTTP Headers e
 
 requests.debugConfig()                                     # Debug the internal Configuration.
 
-print(requests.tuples2json([("key0", "value0"), ("key1", "value1")]))
+print(requests.tuples2json([("key0", "value0"), ("key1", "value1")])) # Convert tuple to JSON.
